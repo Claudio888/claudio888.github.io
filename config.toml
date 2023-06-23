@@ -1,5 +1,5 @@
 title = "Awesome Hugo blog"
-baseURL = 'https://www.craudio.com.br/'
+baseURL = 'https://blog.craudio.com.br/'
 
 # This is what goes in <html lang="">
 languageCode = 'pt-br'
@@ -49,7 +49,7 @@ disqusShortname = 'craudio.disqus.com'
 
 [params]
   sitename = "Blog do Craudio"
-  defaultColor = "auto" # set color mode: dark, light, auto
+  defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
@@ -68,7 +68,7 @@ disqusShortname = 'craudio.disqus.com'
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Craudio's Blog"
   name = "Claudio Filho"
-  description = "Site pessoal para compartilhamento de conteúdo e postagens técnicas"
+  description = "Conteudo técnico para estudos, compartilhando conhecimento e um simples lembrete pro eu do futuro. Sempre aprendendo."
 
 # Allow to override webmanifest options
 [params.webmanifest]
