@@ -13,6 +13,8 @@ tags:
 
 # JMeter rodando no kubernetes
 
+O repositorio referencia para esta publicação, contendo códigos e afins é : https://github.com/Claudio888/kube-jmeter
+
 Trocando uma ideia com meu chapa Vinicius, falando sobre jmeter e ferramentas de teste de carga, lembrei que havia feito para uma empresa uma implementação do jmeter rodando em Openshift, na epoca, precisavamos testar o [Edge MicroGateway do apigee](https://docs.apigee.com/api-platform/microgateway/3.1.x/overview-edge-microgateway), para que as aplicações pudessem se comunicar dentro do cluster e mesmo assim enviar informações para o apigee, sem ter que sair pra internet e voltar, e logo depois o Matheus Fidelis lançou este otimo [artigo](https://fidelissauro.dev/load-testing/) o que me fez querer refazer o projetinho, algo parecido ao menos, pois para a empresa foi criado também uma app em python que enviava uma serie de payloads de tamanho diferentes e especificos para os testes.
 
 Aqui vamos explorar como podemos executar o jmeter, uma famosa ferramenta para testes em software dentro de um cluster k8s (no caso em meu homelab eu uso o KinD). 
